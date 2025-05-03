@@ -1,6 +1,6 @@
-## Attacker Configuration Files (*.yaml)
+## Generate Attacker Configuration Files (*.yaml)
 1.	Open `exp_config_template.py` and replace all `TODO: placeholders` with the appropriate file paths for your local environment.
-2.	Edit `search/search_space.p`y and set the `CACHE_DIR` variable to the directory where you want to store the OpenCLIP model weights.
+2.	Edit `search/search_space.py` and set the `CACHE_DIR` variable to the directory where you want to store the OpenCLIP model weights.
 3.	Modify `generate_exp_configs.py` to toggle between evaluation and attacker configurations by commenting or uncommenting lines marked with `#`.
 4.	Run `generate_exp_configs.py` to generate the final configuration files.
 
