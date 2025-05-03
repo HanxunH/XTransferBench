@@ -39,7 +39,7 @@ print(XTransferBench.zoo.list_threat_model())
 # List UAPs under L_inf threat model
 print(XTransferBench.zoo.list_attacker('linf_non_targeted'))
 
-# Load X-Transfer Large untargeted
+# Load X-Transfer with the Large search space (N=64) non-targeted
 attacker = XTransferBench.zoo.load_attacker('linf_non_targeted', 'xtransfer_large_linf_eps12_non_targeted')
 
 # Perturbe images to adversarial example
