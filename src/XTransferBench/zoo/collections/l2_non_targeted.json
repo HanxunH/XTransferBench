@@ -1,0 +1,17 @@
+{
+    "xtransfer_base_l2_c_0.025_non_targeted": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/xtransfer_base_l2_c_0.025_non_targeted"
+    },
+    "xtransfer_mid_l2_c_0.020_non_targeted": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/xtransfer_mid_l2_c_0.020_non_targeted"
+    },
+    "xtransfer_large_l2_c_0.015_non_targeted": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/xtransfer_large_l2_c_0.015_non_targeted"
+    }
+}

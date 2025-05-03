@@ -1,0 +1,82 @@
+{
+    "xtransfer_naive_linf_eps12_non_targeted": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/xtransfer_naive_linf_eps12_non_targeted"
+    },
+    "xtransfer_base_linf_eps12_non_targeted": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/xtransfer_base_linf_eps12_non_targeted"
+    },
+    "xtransfer_mid_linf_eps12_non_targeted": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/xtransfer_mid_linf_eps12_non_targeted"
+    },
+    "xtransfer_large_linf_eps12_non_targeted": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/xtransfer_large_linf_eps12_non_targeted"
+    },
+    "cpgc_clip_vit_b16_flicker30k": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/cpgc_clip_vit_b16_flicker30k"
+    },
+    "cpgc_clip_vit_b16_mscoco": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/cpgc_clip_vit_b16_mscoco"
+    },
+    "cpgc_clip_rn101_flicker30k": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/cpgc_clip_rn101_flicker30k"
+    },
+    "cpgc_clip_rn101_mscoco": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/cpgc_clip_rn101_mscoco"
+    },
+    "etu_clip_rn50_flickr30_uap": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/etu_clip_rn50_flickr30_uap"
+    },
+    "etu_clip_vit_b16_flickr30_uap": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/etu_clip_vit_b16_flickr30_uap"
+    },
+    "gd_uap_dl_resnet_msc_with_all_data": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/gd_uap_dl_resnet_msc_with_all_data"
+    },
+    "gd_uap_resnet_with_data": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/gd_uap_resnet_with_data"
+    },
+    "metauap_normalized_logits_ensemble_coco_meta": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/metauap_normalized_logits_ensemble_coco_meta"
+    },
+    "metauap_normalized_logits_ensemble_coco": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/metauap_normalized_logits_ensemble_coco"
+    },
+    "trmuap_googlenet": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/trmuap_googlenet"
+    },
+    "trmuap_resnet152": {
+        "image_size": 224,
+        "epsilon": 0.047058823529411764,
+        "checkpoint_path": "hf-hub:hanxunh/trmuap_resnet152"
+    }
+}

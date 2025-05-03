@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Huang"
+  given-names: "Hanxun"
+  orcid: "https://orcid.org/0000-0002-2793-6680"
+- family-names: "Erfani"
+  given-names: "Sarah"
+  orcid: "https://orcid.org/0000-0003-0885-0643"
+- family-names: "Li"
+  given-names: "Yige"
+  orcid: "https://orcid.org/0000-0001-5032-8571"
+- family-names: "Ma"
+  given-names: "Xingjun"
+  orcid: "https://orcid.org/0000-0003-2099-4973"
+- family-names: "Bailey"
+  given-names: "James"
+  orcid: "https://orcid.org/0000-0002-3769-3811"
+title: "X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP"
+version: 0.1.0
+date-released: 2025-05-03
+url: "https://github.com/HanxunH/XTransferBench"
+preferred-citation:
+  type: conference-paper
+  title: "X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP"
+  authors:
+    - family-names: "Huang"
+      given-names: "Hanxun"
+      orcid: "https://orcid.org/0000-0002-2793-6680"
+    - family-names: "Erfani"
+      given-names: "Sarah"
+      orcid: "https://orcid.org/0000-0003-0885-0643"
+    - family-names: "Li"
+      given-names: "Yige"
+      orcid: "https://orcid.org/0000-0001-5032-8571"
+    - family-names: "Ma"
+      given-names: "Xingjun"
+      orcid: "https://orcid.org/0000-0003-2099-4973"
+    - family-names: "Bailey"
+      given-names: "James"
+      orcid: "https://orcid.org/0000-0002-3769-3811"
+  collection-title: "ICML"
+  year: 2025

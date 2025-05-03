@@ -1,0 +1,6 @@
+transformers
+tokenizers
+timm
+tokenizers
+accelerate
+open_clip_torch
