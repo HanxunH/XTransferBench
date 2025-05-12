@@ -33,7 +33,7 @@ class AdvCLIP(nn.Module, PyTorchModelHubMixin, library_name="XTransferBench",):
         mask, applied_patch, x, y = mask_generation(patch)
         applied_patch = torch.from_numpy(applied_patch)
         self.mask = torch.from_numpy(mask).unsqueeze(0)
-        
+        self.image_size = image_size
         # Parameters
         self.delta = nn.Parameter(torch.rand(1, 3, image_size, image_size))
 

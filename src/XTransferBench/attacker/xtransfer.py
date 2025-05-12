@@ -13,6 +13,7 @@ class XTransferLinf(nn.Module, PyTorchModelHubMixin, library_name="XTransferBenc
         self.checkpoint_path = checkpoint_path
         self.epsilon = epsilon
         self.target_text = target_text
+        self.image_size = image_size
         # Parameters
         self.delta = nn.Parameter(torch.rand(1, 3, image_size, image_size))
         
@@ -57,6 +58,7 @@ class XTransferL2Attack(nn.Module, PyTorchModelHubMixin, library_name="XTransfer
         super().__init__()
         self.checkpoint_path = checkpoint_path
         self.target_text = target_text
+        self.image_size = image_size
         # Parameters
         delta = torch.FloatTensor(1, 3, image_size, image_size).uniform_(-0.5, 0.5)
         self.delta_param = nn.Parameter(delta)
