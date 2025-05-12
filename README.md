@@ -11,7 +11,7 @@
   <a><img alt="Made with Python" src="https://img.shields.io/badge/made_with-Python-blue"></a>
 </div>
 
-Code for ICML2025 Paper ["X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP"]()
+Code for ICML2025 Paper ["X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP"](https://arxiv.org/pdf/2505.05528)
 
 ---
 
