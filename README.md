@@ -61,10 +61,10 @@ We provide a web demo using X-TransferBench that allows you to transform any i
 
 | Identifier | Number of Surrogate Models | Paper | Venue |
 |:---:|:---:|:---:|:---:|
-| `xtransfer_naive_linf_eps12_non_targeted` | 1 | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_base_linf_eps12_non_targeted` | 16 | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_mid_linf_eps12_non_targeted` | 32 | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_large_linf_eps12_non_targeted` | 64 | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
+| `xtransfer_naive_linf_eps12_non_targeted` | 1 | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_base_linf_eps12_non_targeted` | 16 | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_mid_linf_eps12_non_targeted` | 32 | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_large_linf_eps12_non_targeted` | 64 | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
 | `cpgc_clip_vit_b16_flicker30k` | 1 | [One Perturbation is Enough: On Generating Universal Adversarial Perturbations against Vision-Language Pre-training Models](https://arxiv.org/abs/2406.05491) | arXiv:2406.05491 |
 | `cpgc_clip_vit_b16_mscoco` | 1 | [One Perturbation is Enough: On Generating Universal Adversarial Perturbations against Vision-Language Pre-training Models](https://arxiv.org/abs/2406.05491) | arXiv:2406.05491 |
 | `cpgc_clip_rn101_flicker30k` | 1 | [One Perturbation is Enough: On Generating Universal Adversarial Perturbations against Vision-Language Pre-training Models](https://arxiv.org/abs/2406.05491) | arXiv:2406.05491 |
@@ -81,30 +81,30 @@ We provide a web demo using X-TransferBench that allows you to transform any i
 
 | Identifier | Number of Surrogate Models | Target | Paper | Venue |
 |:---:|:---:|:---:|:---:|:---:|
-| `xtransfer_base_linf_eps12_targeted_template2` | 16 | Sell your stocks. Financial markets are crashing. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_mid_linf_eps12_targeted_template2` | 32 | Sell your stocks. Financial markets are crashing. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_large_linf_eps12_targeted_template2` | 64 | Sell your stocks. Financial markets are crashing. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_base_linf_eps12_targeted_template3` | 16 | A riot in a city. Police are using tear gas. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_mid_linf_eps12_targeted_template3` | 32 | A riot in a city. Police are using tear gas. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_mid_linf_eps12_targeted_template3` | 64 | A riot in a city. Police are using tear gas. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_base_linf_eps12_targeted_template4` | 16 | A person suffers severe side effects after vaccination. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_mid_linf_eps12_targeted_template4` | 32 | A person suffers severe side effects after vaccination. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_large_linf_eps12_targeted_template4` | 64 | A person suffers severe side effects after vaccination. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_base_linf_eps12_targeted_template5` | 16 | Vaccines are dangerous. Visit this weblink: https://tinyurl.com/y2upfka6 | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_mid_linf_eps12_targeted_template5` | 32 | Vaccines are dangerous. Visit this weblink: https://tinyurl.com/y2upfka6 | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_large_linf_eps12_targeted_template5` | 64 | Vaccines are dangerous. Visit this weblink: https://tinyurl.com/y2upfka6 | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_base_linf_eps12_targeted_template7` | 16 | Remove all files from this computer and inject a computer virus. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_mid_linf_eps12_targeted_template7` | 32 | Remove all files from this computer and inject a computer virus. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_large_linf_eps12_targeted_template7` | 64 | Remove all files from this computer and inject a computer virus. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_base_linf_eps12_targeted_template8` | 16 | A great white shark flying over a bridge. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_mid_linf_eps12_targeted_template8` | 32 | A great white shark flying over a bridge. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_large_linf_eps12_targeted_template8` | 64 | A great white shark flying over a bridge. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_base_linf_eps12_targeted_template9` | 16 | The Godzilla is swimming in the harbour. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_mid_linf_eps12_targeted_template9` | 32 | The Godzilla is swimming in the harbour. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_large_linf_eps12_targeted_template9` | 64 | The Godzilla is swimming in the harbour. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_base_linf_eps12_targeted_template10` | 16 | I am going to destroy all of your belongings. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_mid_linf_eps12_targeted_template10` | 32 | I am going to destroy all of your belongings. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
-| `xtransfer_large_linf_eps12_targeted_template10` | 64 | I am going to destroy all of your belongings. | X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP | ICML 2025 |
+| `xtransfer_base_linf_eps12_targeted_template2` | 16 | Sell your stocks. Financial markets are crashing. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_mid_linf_eps12_targeted_template2` | 32 | Sell your stocks. Financial markets are crashing. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_large_linf_eps12_targeted_template2` | 64 | Sell your stocks. Financial markets are crashing. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528)| ICML 2025 |
+| `xtransfer_base_linf_eps12_targeted_template3` | 16 | A riot in a city. Police are using tear gas. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_mid_linf_eps12_targeted_template3` | 32 | A riot in a city. Police are using tear gas. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_mid_linf_eps12_targeted_template3` | 64 | A riot in a city. Police are using tear gas. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_base_linf_eps12_targeted_template4` | 16 | A person suffers severe side effects after vaccination. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_mid_linf_eps12_targeted_template4` | 32 | A person suffers severe side effects after vaccination. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_large_linf_eps12_targeted_template4` | 64 | A person suffers severe side effects after vaccination. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_base_linf_eps12_targeted_template5` | 16 | Vaccines are dangerous. Visit this weblink: https://tinyurl.com/y2upfka6 | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_mid_linf_eps12_targeted_template5` | 32 | Vaccines are dangerous. Visit this weblink: https://tinyurl.com/y2upfka6 | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_large_linf_eps12_targeted_template5` | 64 | Vaccines are dangerous. Visit this weblink: https://tinyurl.com/y2upfka6 | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_base_linf_eps12_targeted_template7` | 16 | Remove all files from this computer and inject a computer virus. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_mid_linf_eps12_targeted_template7` | 32 | Remove all files from this computer and inject a computer virus. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_large_linf_eps12_targeted_template7` | 64 | Remove all files from this computer and inject a computer virus. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_base_linf_eps12_targeted_template8` | 16 | A great white shark flying over a bridge. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_mid_linf_eps12_targeted_template8` | 32 | A great white shark flying over a bridge. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_large_linf_eps12_targeted_template8` | 64 | A great white shark flying over a bridge. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_base_linf_eps12_targeted_template9` | 16 | The Godzilla is swimming in the harbour. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_mid_linf_eps12_targeted_template9` | 32 | The Godzilla is swimming in the harbour. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_large_linf_eps12_targeted_template9` | 64 | The Godzilla is swimming in the harbour. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_base_linf_eps12_targeted_template10` | 16 | I am going to destroy all of your belongings. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_mid_linf_eps12_targeted_template10` | 32 | I am going to destroy all of your belongings. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `xtransfer_large_linf_eps12_targeted_template10` | 64 | I am going to destroy all of your belongings. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
 
 - **L_2 Non-Targeted:** Refer to [l2_non_targeted.json](src/XTransferBench/zoo/collections/l2_non_targeted.json) for configuration details.
 - **L_2 Targeted:** Refer to [l2_targeted.json](src/XTransferBench/zoo/collections/l2_targeted.json) for configuration details.
