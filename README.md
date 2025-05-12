@@ -5,8 +5,8 @@
 </div>
 
 <div align="center">
-  <a href="" target="_blank"><img src="https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv" alt="arXiv"></a>
-  <a href="" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-blue.svg" alt="HuggingFace Community"></a>
+  <a href="https://arxiv.org/abs/2505.05528" target="_blank"><img src="https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv" alt="arXiv"></a>
+  <a href="https://huggingface.co/models?other=arxiv:2505.05528" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-blue.svg" alt="HuggingFace Community"></a>
   <a href="https://github.com/HanxunH/XTransferBench/blob/main/LICENSE" target="_blank"><img alt="License" src="https://img.shields.io/badge/LICENSE-MIT-green"></a>
   <a><img alt="Made with Python" src="https://img.shields.io/badge/made_with-Python-blue"></a>
 </div>
@@ -46,6 +46,13 @@ attacker = XTransferBench.zoo.load_attacker('linf_non_targeted', 'xtransfer_larg
 images = # Tensor [b, 3, h, w]
 adv_images = attacker(images) 
 ```
+
+---
+## Demo
+
+We provide a web demo using X-TransferBench that allows you to transform any image into an adversarial example using our curated collection of UAPs and TUAPs. You can access the demo at the link below. Once generated, the adversarial example can be tested on any model and task of your choice.
+
+- [Huggingface Spaces](https://huggingface.co/spaces/hanxunh/XTransferBench-UAP-Linf)
 
 ---
 ## Collections

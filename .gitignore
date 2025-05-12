@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 .DS_Store
 assets/logo_original.png
+gradio
 # C extensions
 *.so
 
