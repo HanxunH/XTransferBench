@@ -39,6 +39,7 @@ parser.add_argument('--cache_dir', default=None, type=str, help='Cache directory
 # Attacker
 parser.add_argument('--threat_model', default='linf_non_targeted', type=str, help='The type of the attacker, see XTransferBench documentation for more details')
 parser.add_argument('--attacker_name', default='xtransfer_large_linf_eps12_non_targeted', type=str, help='The name of the attacker, see XTransferBench documentation for more details')
+parser.add_argument("--epsilon", type=int, default=12, help="Epsilon for the L_inf attack")
 
 def _convert_to_rgb(image):
     return image.convert('RGB')
@@ -54,6 +55,10 @@ def main(args):
 
     attacker = XTransferBench.zoo.load_attacker(args.threat_model, args.attacker_name)
     attacker = attacker.to(device)
+    if hasattr(attacker, 'delta'):
+        # L_inf attack
+        print('L_inf attack with epsilon: {}'.format(args.epsilon))
+        attacker.interpolate_epsilon(args.epsilon/255)
 
     # Prepare Data
     data_transforms = [
