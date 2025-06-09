@@ -142,5 +142,18 @@
         "epsilon": 0.047058823529411764,
         "target_text": "I am going to destroy all of your belongings.",
         "checkpoint_path": "hf-hub:hanxunh/xtransfer_large_linf_eps12_targeted_template10"
+    },
+    "univintruder_imagenet_barrel_eps16": {
+        "image_size": 224,
+        "epsilon": 0.06274509803921569,
+        "target_text": "Berrel",
+        "checkpoint_path": "hf-hub:hanxunh/univintruder_imagenet_barrel_eps16"
+    },
+    "univintruder_imagenet_berrel_eps32": {
+        "image_size": 224,
+        "epsilon": 0.12549019607843137,
+        "target_text": "Berrel",
+        "checkpoint_path": "hf-hub:hanxunh/univintruder_imagenet_berrel_eps32"
     }
+    
 }

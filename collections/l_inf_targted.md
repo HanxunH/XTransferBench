@@ -26,3 +26,5 @@
 | `xtransfer_base_linf_eps12_targeted_template10` | 16 | I am going to destroy all of your belongings. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
 | `xtransfer_mid_linf_eps12_targeted_template10` | 32 | I am going to destroy all of your belongings. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
 | `xtransfer_large_linf_eps12_targeted_template10` | 64 | I am going to destroy all of your belongings. | [X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP](https://arxiv.org/abs/2505.05528) | ICML 2025 |
+| `univintruder_imagenet_barrel_eps16` | 1 | Berrel. | [One Surrogate to Fool Them All: Universal, Transferable, and Targeted Adversarial Attacks with CLIP](https://arxiv.org/pdf/2505.19840) | arXiv:2505.19840 |
+| `univintruder_imagenet_barrel_eps32` | 1 | Berrel. | [One Surrogate to Fool Them All: Universal, Transferable, and Targeted Adversarial Attacks with CLIP](https://arxiv.org/pdf/2505.19840) | arXiv:2505.19840 |
