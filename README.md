@@ -21,10 +21,18 @@ Code for ICML2025 Paper ["X-Transfer Attacks: Towards Super Transferable Adversa
 ---
 ## Installation
 
+Nightly Build (latest features from source)
+
 ```shell
 git clone https://github.com/hanxunh/XTransferBench.git
 cd XTransferBench
 pip3 install .
+```
+
+Stable Build (from PyPI)
+
+```shell
+pip3 install XTransferBench
 ```
 
 ---
