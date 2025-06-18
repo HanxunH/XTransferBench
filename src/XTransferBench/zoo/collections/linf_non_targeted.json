@@ -78,5 +78,45 @@
         "image_size": 224,
         "epsilon": 0.047058823529411764,
         "checkpoint_path": "hf-hub:hanxunh/trmuap_resnet152"
+    },
+    "darksam_point_ade_sam_vit_b_eps10": {
+        "image_size": 1024,
+        "epsilon": 0.0392156862745098,
+        "checkpoint_path": "hf-hub:hanxunh/darksam_point_ade_sam_vit_b_eps10"
+    },
+    "darksam_box_ade_sam_vit_b_eps10": {
+        "image_size": 1024,
+        "epsilon": 0.0392156862745098,
+        "checkpoint_path": "hf-hub:hanxunh/darksam_box_ade_sam_vit_b_eps10"
+    },
+    "darksam_point_sa1b_sam_vit_b_eps10": {
+        "image_size": 1024,
+        "epsilon": 0.0392156862745098,
+        "checkpoint_path": "hf-hub:hanxunh/darksam_point_sa1b_sam_vit_b_eps10"
+    },
+    "darksam_box_sa1b_sam_vit_b_eps10": {
+        "image_size": 1024,
+        "epsilon": 0.0392156862745098,
+        "checkpoint_path": "hf-hub:hanxunh/darksam_box_sa1b_sam_vit_b_eps10"
+    },
+    "darksam_point_coco_sam_vit_b_eps10": {
+        "image_size": 1024,
+        "epsilon": 0.0392156862745098,
+        "checkpoint_path": "hf-hub:hanxunh/darksam_point_coco_sam_vit_b_eps10"
+    },
+    "darksam_box_coco_sam_vit_b_eps10": {
+        "image_size": 1024,
+        "epsilon": 0.0392156862745098,
+        "checkpoint_path": "hf-hub:hanxunh/darksam_box_coco_sam_vit_b_eps10"
+    },
+    "darksam_point_city_sam_vit_b_eps10": {
+        "image_size": 1024,
+        "epsilon": 0.0392156862745098,
+        "checkpoint_path": "hf-hub:hanxunh/darksam_point_city_sam_vit_b_eps10"
+    },
+    "darksam_box_city_sam_vit_b_eps10": {
+        "image_size": 1024,
+        "epsilon": 0.0392156862745098,
+        "checkpoint_path": "hf-hub:hanxunh/darksam_box_city_sam_vit_b_eps10"
     }
 }
