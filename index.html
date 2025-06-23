@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP">
+  <meta property="og:title" content="X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP/>
+  <meta property="og:description" content="X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP">
+  <meta name="twitter:description" content="X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP</title>
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on CLIP </h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://hanxunh.github.io" target="_blank">Hanxun Huang</a>,<sup>1</sup></span>
+              <span class="author-block">
+                <a href="https://people.eng.unimelb.edu.au/smonazam/" target="_blank">Sarah Erfani</a>,<sup>1</sup></span>
+              <span class="author-block">
+                <a href="https://github.com/bboylyg" target="_blank">Yige Li</a><sup>2</sup>
+              </span>
+              <span class="author-block">
+                <a href="http://xingjunma.com" target="_blank">Xingjun Ma</a><sup>3</sup>
+              </span>
+              <span class="author-block">
+                <a href="https://people.eng.unimelb.edu.au/baileyj/" target="_blank">James Bailey</a><sup>1</sup>
+              </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>The University of Melbourne</span>
+                    <span class="author-block"><sup>2</sup>Singapore Management University</span>
+                    <span class="author-block"><sup>3</sup>Fudan University</span>
+                    <!-- <span class="author-block">Institution Name<br>Conferance name and year</span> -->
+                  </div>
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2505.05528" target="_blank"
+                          class="external-link button is-normal is-rounded"
+                          style="background-color: #b31b1b; color: white;">
+                          <span class="icon">
+                            <img src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg" 
+                                alt="arXiv Logo" style="height: 1.2em;">
+                          </span>
+                          <span>arXiv</span>
+                        </a>
+                      </span>
+
+                      <span class="link-block">
+                        <a href="https://openreview.net/forum?id=8zsMorEU8U" target="_blank"
+                          class="external-link button is-normal is-rounded"
+                          style="background-color: #000e45; color: white;">
+                          <span class="icon">
+                            <i class="fas fa-file-pdf"></i>
+                          </span>
+                          <span>Paper</span>
+                        </a>
+                      </span>
+
+                    <!-- Supplementary PDF link
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+                  <!-- Github link -->
+                  <span class="link-block">
+                      <a href="https://github.com/HanxunH/XTransferBench" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code</span>
+                    </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a href="https://huggingface.co/spaces/hanxunh/XTransferBench-UAP-Linf" target="_blank"
+                      class="external-link button is-normal is-rounded is-warning">
+                      <span class="icon">
+                        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" style="height: 1.1em;">
+                      </span>
+                      <span>HuggingFace Demo</span>
+                    </a>
+                  </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+                </span> -->
+
+            </div>
+            <!-- Logo Section -->
+            <div class="logo-container mt-5">
+              <figure class="image is-inline-block">
+                <img src="assets/logo.jpg" alt="X-Transfer Logo" style="width: 256px; height: auto;">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
+        <!-- Your video here -->
+        <!-- <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            <strong>X-Transfer</strong> is a novel method for generating 
+            <em>universal adversarial perturbations (UAPs)</em> and 
+            <em>targeted UAPs (TUAPs)</em> that expose critical vulnerabilities in CLIP-based models. 
+            As CLIP becomes central to modern vision-language models, ensuring adversarial robustness is increasingly vital. 
+            With just a <strong>single perturbation</strong>, X-Transfer can fool a wide range of CLIP encoders, 
+            large vision-language models (VLMs), and downstream tasks—such as zero-shot classification, image captioning, 
+            and visual question answering—revealing a scalable, cross-task safety threat in multimodal AI.
+          </p>
+
+          <p>
+            <strong>Super transferability</strong> is the ability of a 
+            <em>single adversarial perturbation</em> to generalize across multiple dimensions in vision-language 
+            <strong>models</strong>. Unlike conventional attacks targeting specific samples or models, 
+            <strong>X-Transfer</strong> produces perturbations that remain effective across:
+          </p>
+          <ol>
+            <li><strong>Data</strong> — different image samples</li>
+            <li><strong>Domains</strong> — diverse datasets</li>
+            <li><strong>Models</strong> — CLIP variants and large VLMs</li>
+            <li><strong>Tasks</strong> — zero-shot classification, retrieval, captioning, and VQA</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div style="text-align:center">
+      <h2 class="title is-3">Efficient Surrogate Scaling</h2>
+    </div><br>
+    <div class="content has-text-justified">
+      <figure class="image is-centered">
+        <img src="assets/efficient_scaling.png" alt="Comparison between standard and efficient surrogate scaling">
+        <figcaption class="has-text-centered mt-2">
+          <em>Figure: Standard scaling (left) uses all surrogate models at each step; 
+          Efficient scaling (right) dynamically selects a small subset of models at each step.</em>
+        </figcaption>
+      </figure>
+
+      <p>
+        Traditional scaling methods rely on fixed ensembles of surrogate models, 
+        where gradients are computed across all models at each optimization step. While effective, this approach is 
+        computationally expensive and does not scale well as the number of surrogates grows.
+      </p>
+
+      <p>
+        <strong>X-Transfer</strong> introduces a more scalable solution: 
+        <strong>efficient surrogate scaling</strong>. At each step, it dynamically selects a small subset 
+        of surrogate CLIP encoders—picking <em>k out of N</em>—rather than using all N. This significantly reduces 
+        compute costs while maintaining or even improving transferability.
+      </p>
+
+      <p>
+        The model selection process is guided by a non-stationary multi-armed bandit algorithm, 
+        using the <strong>Upper Confidence Bound (UCB)</strong> strategy. This balances:
+        <ul>
+          <li><strong>Exploration</strong> — trying new or underused models</li>
+          <li><strong>Exploitation</strong> — focusing on models that are harder to fool</li>
+        </ul>
+        This ensures that perturbations become increasingly transferable across diverse CLIP variants.
+      </p>
+
+      <p class="has-text-centered">
+        \[
+        \text{UCB}_i = R_i + \sqrt{\frac{2 \ln n}{n_i}}
+        \]
+      </p>
+
+      <p>
+        where \(R_i\) is the cumulative reward of model \(i\), \(n_i\) is the number of times model \(i\) has been selected, 
+        and \(n\) is the total number of selections made. This scoring promotes the selection of diverse and challenging surrogates.
+      </p>
+
+      <p>
+        The universal adversarial perturbation \(\delta\) is optimized using an embedding-space objective. For the non-targeted case, 
+        the optimization problem is defined as:
+      </p>
+
+      <p class="has-text-centered">
+        \[
+        \underset{\delta}{\arg\min} \; \mathbb{E}_{(x) \sim \mathcal{D}'} \; \text{sim}(f'_I(x + \delta), f'_I(x))
+        \]
+      </p>
+
+      <p>
+        where \(f'_I\) is the surrogate image encoder, and \(\mathcal{D}'\) is the surrogate dataset. The goal is to reduce 
+        similarity between clean and perturbed embeddings, ensuring the perturbation fools the model across samples.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div style="text-align:center">
+      <h2 class="title is-3">Super Transferability</h2>
+    </div><br>
+
+    <div class="content has-text-justified">
+      <figure class="image is-centered">
+        <img src="assets/results.png" alt="Radar chart showing UAP performance across tasks" style="max-width: 500px; width: 100%; height: auto;">
+        <figcaption class="has-text-centered mt-2">
+          <em>Figure: Transferability performance across 14 diverse tasks and datasets. 
+          X-Transfer variants (blue tones) significantly outperform existing universal attack baselines.</em>
+        </figcaption>
+      </figure>
+
+      
+      <p>
+        The radar chart above illustrates the <strong>super transferability</strong> of X-Transfer-generated UAPs across 
+        a wide spectrum of vision-language tasks, including:
+      </p>
+      <ul>
+        <li><strong>Zero-shot classification (ZS)</strong> (e.g., ImageNet-ZS, CIFAR100-ZS)</li>
+        <li><strong>Image Retrieval (IR) and Text Retrieval (TR)</strong> (e.g., MSCOCO-TR, MSCOCO-IR)</li>
+        <li><strong>Image captioning (IC)</strong> (MSCOCO-IC, Flickr-IC)</li>
+        <li><strong>Visual Question Answering (VQA)</strong> (OK-VQA, VizWiz-VQA)</li>
+      </ul>
+      <p>
+        Each point on the radar chart represents the <strong>average Attack Success Rate (ASR)</strong> 
+        on a given dataset, computed across multiple CLIP-based models and large VLMs.
+      </p>
+
+      <p>
+        Compared to prior UAP methods like GD-UAP, Meta-UAP, and TRM-UAP, all X-Transfer variants (Base, Mid, Large) 
+        achieve superior performance in almost all settings—showcasing their ability to generalize 
+        across <strong>models, data domains, and downstream tasks</strong> with just a single perturbation.
+      </p>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div style="text-align:center">
+      <h2 class="title is-3">X-TransferBench</h2>
+    </div><br>
+
+    <div class="content has-text-justified">
+      <p>
+        <strong><a href="https://github.com/HanxunH/XTransferBench" target="_blank" style="text-decoration: none;"> X-TransferBench</a></strong> is an open-source toolkit for benchmarking universal adversarial perturbations (UAPs) 
+        with <strong>super transferability</strong> across models, datasets, and tasks.
+        It provides plug-and-play access to pre-trained X-Transfer UAPs for immediate evaluation or integration.
+      </p>
+
+      <h4 class="title is-5">Installation</h4>
+      <pre class="highlight"><code class="language-bash"># From source (latest)
+git clone https://github.com/hanxunh/XTransferBench.git
+cd XTransferBench
+pip install .
+
+# From PyPI
+pip install XTransferBench
+</code></pre>
+
+      <h4 class="title is-5">Quick Start</h4>
+      <pre class="highlight"><code class="language-python">import XTransferBench.zoo as zoo
+
+# Load a large-scale non-targeted L_inf UAP
+attacker = zoo.load_attacker(
+    'linf_non_targeted', 
+    'xtransfer_large_linf_eps12_non_targeted'
+)
+
+# Apply to batch of images
+# images: torch.Tensor of shape [B, 3, H, W]
+adv_images = attacker(images)
+</code></pre>
+    </div>
+  </div>
+</section>
+
+<!--BibTex citation -->
+<!-- BibTeX citation section -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre class="highlight"><code class="language-bibtex">
+@inproceedings{huang2025xtransfer,
+  title     = {X-Transfer Attacks: Towards Super Transferable Adversarial Attacks on {CLIP}},
+  author    = {Hanxun Huang and Sarah Monazam Erfani and Yige Li and Xingjun Ma and James Bailey},
+  booktitle = {ICML},
+  year      = {2025},
+}
+</code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
