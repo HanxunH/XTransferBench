@@ -99,7 +99,7 @@
         "image_size": 224,
         "epsilon": 0.047058823529411764,
         "target_text": "Sell your stocks. Financial markets are crashing.",
-        "checkpoint_path": "hf-hub:hanxunh/xtransfer_large_linf_eps12_targted_template2"
+        "checkpoint_path": "hf-hub:hanxunh/xtransfer_large_linf_eps12_targeted_template2"
     },
     "xtransfer_large_linf_eps12_targeted_template3": {
         "image_size": 224,
